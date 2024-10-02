@@ -28,7 +28,7 @@ import { SiNextdotjs, SiRedux, SiTailwindcss } from "react-icons/si";
 const about = {
   title: "About Me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, necessitatibus. Ipsam at assumenda accusamus voluptas id quae natus deleniti? Aut.",
+    "Highly seasoned and reliable entry-level web Designer with a strong work ethic and customer service and satisfaction record. Adept multitasker capable of bringing simultaneous web page creation and completion with full accuracy and efficiency. May update web style sheets and pages regularly and as needed. Prepare site update reports for regular submission to management.",
   info: [
     {
       fieldName: "Name",
@@ -69,8 +69,9 @@ const about = {
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, necessitatibus. Ipsam at assumenda accusamus voluptas id quae natus deleniti? Aut.",
+  description: `I am a skilled frontend developer with a strong foundation in HTML, CSS, SCSS, JavaScript, and a wide range of modern frameworks and tools including React, Next.js, Vue, Nuxt, Bootstrap, and Tailwind. I have extensive experience building responsive and interactive websites, utilizing best practices to create efficient, user-friendly designs. Over the years, I have successfully developed and launched multiple projects, showcasing my proficiency in both design and development.
+    
+    I have also gained valuable experience working with Xciteducation Worldwide (Remote) and SoftlabIt, where I contributed to various web projects, collaborating with teams to deliver high-quality digital solutions. My expertise spans across different industries and client requirements, ensuring that I stay updated with the latest trends and technologies in the frontend development space`,
   items: [
     {
       company: "Softlab IT | A global Software development company",
@@ -88,8 +89,9 @@ const experience = {
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, necessitatibus. Ipsam at assumenda accusamus voluptas id quae natus deleniti? Aut.",
+  description: `I have a diverse educational background in web development and programming, built through a combination of formal courses and self-directed learning. I have completed courses such as Programming Hero, the Reactive Acceleration course by Learn with Sumit, and earned the Meta Front-End Developer Professional Certificate on Coursera.
+
+ In addition to structured learning, I continuously enhance  my skills through platforms like YouTube, Google, Next  Ninja, MDN Web Docs, and W3Schools, keeping up with the  latest advancements in web development. I am also proud to  be a graduate of Dhaka College, which laid the foundation  for my technical and professional growth.`,
   items: [
     {
       company: "Learn with sumit",
@@ -113,7 +115,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, necessitatibus. Ipsam at assumenda accusamus voluptas id quae natus deleniti? Aut.",
+    "Highly seasoned and reliable entry-level web Designer with a strong work ethic and customer service and satisfaction record. Adept multitasker capable of bringing simultaneous web page creation and completion with full accuracy and efficiency. May update web style sheets and pages regularly and as needed. Prepare site update reports for regular submission to management.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -293,11 +295,16 @@ const Resume = () => {
             >
               <div className="flex flex-col gap-[30px] ">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0 ">{about.description}</p>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0 ">
+                  {about.description}
+                </p>
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0 ">
                   {about.info.map((item, index) => {
                     return (
-                      <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
+                      <li
+                        key={index}
+                        className="flex items-center justify-center xl:justify-start gap-4"
+                      >
                         <span className="text-white/60">{item.fieldName}</span>
                         <span className="text-xl">{item.fieldValue}</span>
                       </li>

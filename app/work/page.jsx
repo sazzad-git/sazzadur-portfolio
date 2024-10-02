@@ -25,33 +25,39 @@ const projects = [
     category: "frontend",
     title: "project",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus vel animi queueMicrotask.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Ema John Shop is a custom-built e-commerce platform created using React and Firebase, designed for a smooth and secure online shopping experience. Developed with cutting-edge technology, the website offers a user-friendly interface, fast loading times, and seamless navigation.",
+    stack: [
+      { name: "Html 5" },
+      { name: "Css 3" },
+      { name: "Javascript" },
+      { name: "React" },
+      { name: "firebase" },
+    ],
     image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    live: "https://ema-john-firebase.vercel.app/",
+    github: "https://github.com/sazzad-git/ema-john-firebase",
   },
   {
     num: "02",
     category: "fullstack",
     title: "project",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus vel animi queueMicrotask.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+      "Kella Kendra Media House is an innovative digital platform built with React and Node.js, showcasing the creative excellence of a modern media agency. Designed for speed, scalability, and interactivity, the website offers a seamless user experience that highlights the agency's expertise in film production, digital content creation, and storytelling.",
+    stack: [{ name: "React" }, { name: "Tailwind.css" }, { name: "Node.js" }],
     image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+    live: "https://kalla-kendra-disover-updatephoto-test.netlify.app/",
+    github: "https://github.com/sazzad-git/kalla-kendra-3",
   },
   {
     num: "03",
     category: "frontend",
     title: "project",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus vel animi queueMicrotask.",
-    stack: [{ name: "React" }, { name: "Tailwind.css" }],
+      "Gaan-player is a sleek and intuitive audio song player website developed using Next.js. Designed for music lovers, Gaan-player offers a seamless and responsive interface for streaming your favorite tracks. With Next.js ensuring fast performance and server-side rendering, the platform provides a smooth user experience across all devices.",
+    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
     image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+    live: "https://sazzad-gaan-player.netlify.app/",
+    github: "https://github.com/sazzad-git/gaan-player",
   },
 ];
 
@@ -162,7 +168,8 @@ const Work = () => {
               {/* slider buttons */}
               <WorkSliderBtns
                 containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none "
-                btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all "  />
+                btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all "
+              />
             </Swiper>
           </div>
         </div>

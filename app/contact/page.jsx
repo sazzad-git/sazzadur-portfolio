@@ -55,8 +55,7 @@ const Contact = () => {
                 Let&apos;s work together{" "}
               </h3>
               <p className="text-white/60">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quis voluptatem iste nam? Autem, eos.
+              Highly seasoned and reliable entry-level web Designer with a strong work ethic and customer service and satisfaction record. Adept multitasker capable of bringing simultaneous web page creation and completion with full accuracy and efficiency. May update web style sheets and pages regularly and as needed. Prepare site update reports for regular submission to management.
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
