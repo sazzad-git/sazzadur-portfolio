@@ -25,8 +25,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${jetbrainsMono.variable}`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${jetbrainsMono.variable}`} suppressHydrationWarning>
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
